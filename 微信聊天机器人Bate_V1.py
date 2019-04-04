@@ -5,7 +5,6 @@ import datetime
 import time
 
 def get_response(question):
-
     apikey = '9d19f2f79b0f43ec9406fc8ecdd91dab'
     url = 'http://www.tuling123.com/openapi/api?key=' + apikey + '&info=' + question
 
